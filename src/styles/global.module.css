@@ -1,0 +1,27 @@
+:root {
+    --bg: #282a36;
+    --bgaccent: #44475a;
+    --fg: #f8f8f2;
+    --fgaccent: #6272a4;
+    --red: #ff5555;
+    --green: #50fa7b;
+    --yellow: #f1fa8c;
+    --blue: #bd93f9;
+    --magenta: #ff79c6;
+    --cyan: #8be9fd;
+    --white: #f8f8f2;
+
+}
+
+html body {
+    font-family: Victor Mono, monospace;
+    margin: 0;
+    padding: 0;
+    background-color: var(--bg);
+    color: var(--fg);
+}
+
+
+main {
+    height: 100vh;
+}
